@@ -1,0 +1,7 @@
+<div class="search-wrapper">
+    <input type="text" [formControl]="searchControl" placeholder="Type to search">
+    <!-- <ul *ngIf="sugestions.length">   -->
+        {{sugestions }}
+    <p *ngFor="let item of sugestions">{{ item }}</p>
+<!-- </ul> -->
+</div>
